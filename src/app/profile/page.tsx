@@ -135,7 +135,7 @@ export default function ProfilePage() {
                         ].map(({ label, value }) => (
                             <div key={label} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                                 <h2 className="text-lg font-medium text-gray-700">{label}</h2>
-                                <p className="text-xl font-semibold text-gray-900">{value}</p>
+                                <p className="text-xl font-semibold text-gray-900 break-words">{value}</p>
                             </div>
                         ))}
                     </div>
